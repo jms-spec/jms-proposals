@@ -8,7 +8,7 @@
     <packaging>war</packaging>
 
     <parent>
-        <artifactId>jms-examples</artifactId>
+        <artifactId>jms-proposals</artifactId>
         <groupId>net.java.jsr368</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
