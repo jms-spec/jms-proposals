@@ -1,0 +1,6 @@
+= JMS Proposals
+
+This repository contains proposals for features to be used as basis for discussion.
+
+== Proposals
+- link:batch-delivery/README.adoc[Batch Delivery]
