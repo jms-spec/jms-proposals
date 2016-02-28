@@ -39,7 +39,7 @@
  */
 package javax.jms;
 
-import static java.lang.annotation.ElementType.METHOD;
+import static java.lang.annotation.ElementType.PARAMETER;
 import java.lang.annotation.Retention;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 import java.lang.annotation.Target;
@@ -49,7 +49,7 @@ import java.lang.annotation.Target;
  * @author Ivar Grimstad (ivar.grimstad@gmail.com)
  */
 @Retention(RUNTIME)
-@Target({ METHOD })
+@Target({ PARAMETER })
 public @interface Batch {
 
     /**
